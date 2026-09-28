@@ -18,13 +18,11 @@
         },
         {
           "name": "xDist",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "yDist",
-          "ioValue": -0.3937007874015748,
-          "currentEquation": "-0.3937007874015748"
+          "ioValue": -0.3937007874015748
         },
         {
           "name": "zDist",
@@ -317,8 +315,7 @@
         },
         {
           "name": "height",
-          "ioValue": 0.13,
-          "currentEquation": "0.13"
+          "ioValue": 0.13
         }
       ]
     },
@@ -387,11 +384,11 @@
         },
         {
           "name": "Number Needed",
-          "ioValue": 0.1
+          "ioValue": 1
         },
         {
           "name": "Cost (USD)",
-          "ioValue": 7
+          "ioValue": 0.7
         },
         {
           "name": "Source Link",
@@ -401,8 +398,8 @@
       ],
       "BOMitem": {
         "BOMitemName": "heat sink",
-        "numberNeeded": 0.1,
-        "costUSD": 7,
+        "numberNeeded": 1,
+        "costUSD": 0.7,
         "source": "https://www.amazon.com/Easycargo-Heatsink-20x20x10mm-Conductive-20mmx20mmx10mm/dp/B07BDKN3XV/ref=sr_1_7?crid=2Q1AI4UJCZDPR&dib=eyJ2IjoiMSJ9.a0g2ljn7zXQTqddg66cfbq_-Gpp8U5n2xhd3zR5M0g8uCA9JfqTXnxQQSejrjNF4RYjffNxNsRQ9cqQvTgPtHFtsGKFFC8I1C2HnHcp7fR8_DQVW_hbhDGTSeRcBhDfm9rkS5D_Xapz8PvhGTm37Tso_oqetkEyHunHAyFBIIE8RNuwwxh1CzUOSeUq9A9VVhKf5GkQIIg5LEaxLgfwpFJNIusZ-YUjMDEo2wQPQgGM.VPmk7NnYAS02nX9wK3fSJcFwJ956Z6B49qmEUIN9bcE&dib_tag=se&keywords=heat+sink+20mm+square&qid=1790621873&sprefix=heat+sink+20mm+square%2Caps%2C262&sr=8-7"
       }
     },
@@ -432,6 +429,36 @@
     }
   ],
   "allConnectors": [
+    {
+      "ap2Name": "Shape2",
+      "ap1ID": "id-103",
+      "ap2ID": "id-125"
+    },
+    {
+      "ap2Name": "B",
+      "ap1ID": "id-109",
+      "ap2ID": "id-138"
+    },
+    {
+      "ap2Name": "Shape2",
+      "ap1ID": "id-109",
+      "ap2ID": "id-156"
+    },
+    {
+      "ap2Name": "A",
+      "ap1ID": "id-125",
+      "ap2ID": "id-138"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-156",
+      "ap2ID": "id-69"
+    },
+    {
+      "ap2Name": "y length",
+      "ap1ID": "id-172",
+      "ap2ID": "id-71"
+    },
     {
       "ap2Name": "geometry",
       "ap1ID": "id-71",
@@ -473,39 +500,9 @@
       "ap2ID": "id-125"
     },
     {
-      "ap2Name": "Shape2",
-      "ap1ID": "id-103",
-      "ap2ID": "id-125"
-    },
-    {
-      "ap2Name": "B",
-      "ap1ID": "id-109",
-      "ap2ID": "id-138"
-    },
-    {
-      "ap2Name": "Shape2",
-      "ap1ID": "id-109",
-      "ap2ID": "id-156"
-    },
-    {
-      "ap2Name": "A",
-      "ap1ID": "id-125",
-      "ap2ID": "id-138"
-    },
-    {
       "ap2Name": "Shape 1",
       "ap1ID": "id-138",
       "ap2ID": "id-156"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-156",
-      "ap2ID": "id-69"
-    },
-    {
-      "ap2Name": "y length",
-      "ap1ID": "id-172",
-      "ap2ID": "id-71"
     }
   ],
   "unitsKey": "Inches",
