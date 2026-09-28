@@ -3,5 +3,5 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |ESC board|1|$30.00|https://bluerobotics.com/store/thrusters/speed-controllers/besc30-r3/|
-|heat sink|0.2|$14.00|[Amazon](https://www.amazon.com/Easycargo-Heatsink-20x20x10mm-Conductive-20mmx20mmx10mm/dp/B07BDKN3XV/ref=sr_1_7?crid=2Q1AI4UJCZDPR&dib=eyJ2IjoiMSJ9.a0g2ljn7zXQTqddg66cfbq_-Gpp8U5n2xhd3zR5M0g8uCA9JfqTXnxQQSejrjNF4RYjffNxNsRQ9cqQvTgPtHFtsGKFFC8I1C2HnHcp7fR8_DQVW_hbhDGTSeRcBhDfm9rkS5D_Xapz8PvhGTm37Tso_oqetkEyHunHAyFBIIE8RNuwwxh1CzUOSeUq9A9VVhKf5GkQIIg5LEaxLgfwpFJNIusZ-YUjMDEo2wQPQgGM.VPmk7NnYAS02nX9wK3fSJcFwJ956Z6B49qmEUIN9bcE&dib_tag=se&keywords=heat+sink+20mm+square&qid=1790621873&sprefix=heat+sink+20mm+square%2Caps%2C262&sr=8-7?tag=maslowcnc01-20)|
-|Total: |1.2|$44.00| |
+|heat sink|2|$1.40|[Amazon](https://www.amazon.com/Easycargo-Heatsink-20x20x10mm-Conductive-20mmx20mmx10mm/dp/B07BDKN3XV/ref=sr_1_7?crid=2Q1AI4UJCZDPR&dib=eyJ2IjoiMSJ9.a0g2ljn7zXQTqddg66cfbq_-Gpp8U5n2xhd3zR5M0g8uCA9JfqTXnxQQSejrjNF4RYjffNxNsRQ9cqQvTgPtHFtsGKFFC8I1C2HnHcp7fR8_DQVW_hbhDGTSeRcBhDfm9rkS5D_Xapz8PvhGTm37Tso_oqetkEyHunHAyFBIIE8RNuwwxh1CzUOSeUq9A9VVhKf5GkQIIg5LEaxLgfwpFJNIusZ-YUjMDEo2wQPQgGM.VPmk7NnYAS02nX9wK3fSJcFwJ956Z6B49qmEUIN9bcE&dib_tag=se&keywords=heat+sink+20mm+square&qid=1790621873&sprefix=heat+sink+20mm+square%2Caps%2C262&sr=8-7?tag=maslowcnc01-20)|
+|Total: |3|$31.40| |
