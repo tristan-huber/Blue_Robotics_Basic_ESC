@@ -1,13 +1,194 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-68",
-    "name": "Blue_Robotics_Basic_ESC",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Inches",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-68",
+  "name": "Blue_Robotics_Basic_ESC",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 1,
+      "y": 0.5,
+      "uniqueID": "id-69",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.2,
+      "y": 0.6,
+      "uniqueID": "id-71",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 0.6692913385826772
+        },
+        {
+          "name": "y length",
+          "ioValue": 1.3779527559055118,
+          "currentEquation": "35 / 25.4"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3,
+      "y": 0.3,
+      "uniqueID": "id-75",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 0.13,
+          "currentEquation": "0.13"
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "x": 0.2,
+      "y": 0.8,
+      "uniqueID": "id-79",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 0.7874015748031497
+        },
+        {
+          "name": "y length",
+          "ioValue": 0.7874015748031497,
+          "currentEquation": "20 / 25.4"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.3,
+      "y": 0.6,
+      "uniqueID": "id-83",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 0.3937007874015748,
+          "currentEquation": "10 / 25.4"
+        }
+      ]
+    },
+    {
+      "atomType": "Color",
+      "x": 0.4,
+      "y": 0.7,
+      "uniqueID": "id-87",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
+      "selectedColor": "Yellow"
+    },
+    {
+      "atomType": "Add-BOM-Tag",
+      "x": 0.5,
+      "y": 0.8,
+      "uniqueID": "id-90",
+      "name": "Add BOM Tag",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "Item Name",
+          "ioValue": "heat sink",
+          "currentEquation": "heat sink"
+        },
+        {
+          "name": "Number Needed",
+          "ioValue": 0.1
+        },
+        {
+          "name": "Cost (USD)",
+          "ioValue": 7
+        },
+        {
+          "name": "Source Link",
+          "ioValue": "https://www.amazon.com/Easycargo-Heatsink-20x20x10mm-Conductive-20mmx20mmx10mm/dp/B07BDKN3XV/ref=sr_1_7?crid=2Q1AI4UJCZDPR&dib=eyJ2IjoiMSJ9.a0g2ljn7zXQTqddg66cfbq_-Gpp8U5n2xhd3zR5M0g8uCA9JfqTXnxQQSejrjNF4RYjffNxNsRQ9cqQvTgPtHFtsGKFFC8I1C2HnHcp7fR8_DQVW_hbhDGTSeRcBhDfm9rkS5D_Xapz8PvhGTm37Tso_oqetkEyHunHAyFBIIE8RNuwwxh1CzUOSeUq9A9VVhKf5GkQIIg5LEaxLgfwpFJNIusZ-YUjMDEo2wQPQgGM.VPmk7NnYAS02nX9wK3fSJcFwJ956Z6B49qmEUIN9bcE&dib_tag=se&keywords=heat+sink+20mm+square&qid=1790621873&sprefix=heat+sink+20mm+square%2Caps%2C262&sr=8-7",
+          "currentEquation": "https://www.amazon.com/Easycargo-Heatsink-20x20x10mm-Conductive-20mmx20mmx10mm/dp/B07BDKN3XV/ref=sr_1_7?crid=2Q1AI4UJCZDPR&dib=eyJ2IjoiMSJ9.a0g2ljn7zXQTqddg66cfbq_-Gpp8U5n2xhd3zR5M0g8uCA9JfqTXnxQQSejrjNF4RYjffNxNsRQ9cqQvTgPtHFtsGKFFC8I1C2HnHcp7fR8_DQVW_hbhDGTSeRcBhDfm9rkS5D_Xapz8PvhGTm37Tso_oqetkEyHunHAyFBIIE8RNuwwxh1CzUOSeUq9A9VVhKf5GkQIIg5LEaxLgfwpFJNIusZ-YUjMDEo2wQPQgGM.VPmk7NnYAS02nX9wK3fSJcFwJ956Z6B49qmEUIN9bcE&dib_tag=se&keywords=heat+sink+20mm+square&qid=1790621873&sprefix=heat+sink+20mm+square%2Caps%2C262&sr=8-7"
+        }
+      ],
+      "BOMitem": {
+        "BOMitemName": "heat sink",
+        "numberNeeded": 0.1,
+        "costUSD": 7,
+        "source": "https://www.amazon.com/Easycargo-Heatsink-20x20x10mm-Conductive-20mmx20mmx10mm/dp/B07BDKN3XV/ref=sr_1_7?crid=2Q1AI4UJCZDPR&dib=eyJ2IjoiMSJ9.a0g2ljn7zXQTqddg66cfbq_-Gpp8U5n2xhd3zR5M0g8uCA9JfqTXnxQQSejrjNF4RYjffNxNsRQ9cqQvTgPtHFtsGKFFC8I1C2HnHcp7fR8_DQVW_hbhDGTSeRcBhDfm9rkS5D_Xapz8PvhGTm37Tso_oqetkEyHunHAyFBIIE8RNuwwxh1CzUOSeUq9A9VVhKf5GkQIIg5LEaxLgfwpFJNIusZ-YUjMDEo2wQPQgGM.VPmk7NnYAS02nX9wK3fSJcFwJ956Z6B49qmEUIN9bcE&dib_tag=se&keywords=heat+sink+20mm+square&qid=1790621873&sprefix=heat+sink+20mm+square%2Caps%2C262&sr=8-7"
+      }
+    },
+    {
+      "atomType": "Move",
+      "x": 0.6,
+      "y": 0.7,
+      "uniqueID": "id-97",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-71",
+      "ap2ID": "id-75"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-79",
+      "ap2ID": "id-83"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-83",
+      "ap2ID": "id-87"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-87",
+      "ap2ID": "id-90"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-90",
+      "ap2ID": "id-97"
+    }
+  ],
+  "unitsKey": "Inches",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
